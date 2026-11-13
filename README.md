@@ -38,6 +38,29 @@ wallabag is a self hostable application allowing you to not miss any content any
 
 - [Documentation](https://wallabagger.wallabag.org/)
 
+## Build the Firefox add-on for AMO
+
+The build was verified on Arch Linux (x86_64) with Node.js 26.13.1 and npm
+12.2.2. It requires Node.js and npm; the same commands can be run on Linux,
+macOS, or Windows. Install Node.js 26.13.1 from
+[nodejs.org](https://nodejs.org/); npm 12.2.2 is included. Dependency
+installation requires access to the npm registry.
+
+To reproduce the Firefox package, extract the source archive, open a terminal,
+and run:
+
+```sh
+cd wallabagger-localaiclient-fork
+npm ci
+npm run build-for-amo
+```
+
+The Firefox package is written to `web-ext-artifacts/wallabagger-<version>.zip`,
+with the version taken from `package.json`. The build script first generates
+the Firefox manifest from `manifest-builder/manifest.mjs`, then packages the
+extension with `web-ext`. The extension's first-party JavaScript is not
+transpiled, bundled, or minified.
+
 ## Many thanks to
 
 * [Yuriy Evdokimov](mailto:rurik19@yandex.ru) for being at the origin of this extension
