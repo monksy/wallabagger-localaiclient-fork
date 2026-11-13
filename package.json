@@ -13,7 +13,16 @@
     "test": "vitest run",
     "locales:sort": "sort-json -i -d=1 wallabagger/_locales/**/messages.json",
     "build": "web-ext build --source-dir wallabagger/",
-    "manifest:build" : "node manifest-builder/manifest.mjs"
+    "manifest:build": "node manifest-builder/manifest.mjs",
+    "build:chrome": "node scripts/build-chrome.mjs"
+  },
+  "webextension": {
+    "name": "Wallabagger",
+    "applications": {
+      "gecko": {
+        "strict_min_version": "109.0"
+      }
+    }
   },
   "repository": {
     "type": "git",

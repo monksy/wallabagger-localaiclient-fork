@@ -1,4 +1,40 @@
 {
+    "AI_API_key_optional": {
+        "message": "API key (optional for unauthenticated endpoints)",
+        "description": "Options"
+    },
+    "AI_configuration_incomplete": {
+        "message": "Enter an inference URL and select a model first.",
+        "description": "Options"
+    },
+    "AI_inference_URL": {
+        "message": "OpenAI-compatible inference URL",
+        "description": "Options"
+    },
+    "AI_inference_URL_hint": {
+        "message": "Include the provider's OpenAI-compatible API prefix, such as /v1, when required.",
+        "description": "Options"
+    },
+    "AI_models_load_failed": {
+        "message": "Could not load models from the inference provider.",
+        "description": "Options"
+    },
+    "AI_permission_denied": {
+        "message": "Permission to access the inference provider was denied.",
+        "description": "Options"
+    },
+    "AI_tag_suggestions": {
+        "message": "AI tag suggestions",
+        "description": "Options"
+    },
+    "AI_tag_suggestions_unavailable": {
+        "message": "AI tag suggestions are unavailable.",
+        "description": "Popup"
+    },
+    "Add_all": {
+        "message": "Add all",
+        "description": "Popup"
+    },
     "Add_site": {
         "message": "Add site",
         "description": "Options"
@@ -18,6 +54,10 @@
     "Archive": {
         "message": "Archive",
         "description": "background"
+    },
+    "Archive_by_default_when_saving_page": {
+        "message": "Archive by default when saving the page",
+        "description": "Options"
     },
     "Article_s_link": {
         "message": "Article's link",
@@ -49,14 +89,6 @@
     },
     "Client_secret": {
         "message": "Client secret",
-        "description": "Options"
-    },
-    "day_many": {
-        "message": "days",
-        "description": "Options"
-    },
-    "day_one": {
-        "message": "day",
         "description": "Options"
     },
     "Delete_this_article": {
@@ -99,6 +131,10 @@
         "message": "Edit the wallabag title of this article",
         "description": "Popup"
     },
+    "Enable_AI_tag_suggestions": {
+        "message": "Enable AI tag suggestions. The page URL, title, and visible text will be sent to the configured inference provider.",
+        "description": "Options"
+    },
     "Enable_this_only_if_developers_told_you_to": {
         "message": "Enable this only if developers told you to",
         "description": "Options"
@@ -119,6 +155,10 @@
         "message": "Save any page’s URL and content to a Wallabag v2 server for later reading, with editable metadata.",
         "description": "Manifest.json"
     },
+    "Fetch_by_default_when_saving_page": {
+        "message": "Retrieve content from the browser by default when saving page",
+        "description": "Options"
+    },
     "Fetch_from_the_browser": {
         "message": "Content fetching from the browser",
         "description": "Options"
@@ -131,24 +171,16 @@
         "message": "Get token",
         "description": "Options"
     },
-    "Go_to_this_article_page": {
-        "message": "Go to this article page",
-        "description": "Popup"
-    },
     "Go_to_Wallabag_s_article_page": {
         "message": "Go to wallabag's article page",
         "description": "Popup"
     },
+    "Go_to_this_article_page": {
+        "message": "Go to this article page",
+        "description": "Popup"
+    },
     "Granted": {
         "message": "Granted",
-        "description": "Options"
-    },
-    "hour_many": {
-        "message": "hours",
-        "description": "Options"
-    },
-    "hour_one": {
-        "message": "hour",
         "description": "Options"
     },
     "Indicate_if_page_already_saved_into_wallabag_the_wallabagger_icon_is_green": {
@@ -163,20 +195,24 @@
         "message": "Load from file",
         "description": "Options"
     },
+    "Load_models": {
+        "message": "Load models",
+        "description": "Options"
+    },
     "Loading_wallabag_API": {
         "message": "Loading wallabag API…",
         "description": "Popup"
     },
-    "minute_many": {
-        "message": "minutes",
-        "description": "Options"
-    },
-    "minute_one": {
-        "message": "minute",
+    "Models_loaded": {
+        "message": "Models loaded",
         "description": "Options"
     },
     "No_leave_it": {
         "message": "No, leave it",
+        "description": "Popup"
+    },
+    "No_tag_suggestions": {
+        "message": "No tag suggestions found.",
         "description": "Popup"
     },
     "Not_checked": {
@@ -227,6 +263,10 @@
         "message": "Reset parameters",
         "description": "Options"
     },
+    "Retry_AI_tag_suggestions": {
+        "message": "Retry",
+        "description": "Popup button to retry AI tag suggestions"
+    },
     "Save": {
         "message": "Save",
         "description": "Popup"
@@ -250,6 +290,10 @@
     "Saving_the_page_to_wallabag_from_the_browser": {
         "message": "Saving the browser's page content to wallabag…",
         "description": "background"
+    },
+    "Select_a_model": {
+        "message": "Select a model",
+        "description": "Options"
     },
     "Service_pages_can_t_be_stored": {
         "message": "Service pages can't be stored",
@@ -283,12 +327,12 @@
         "message": "Sometimes, wallabag can't access to the content you're trying to store. Maybe it's a website requiring a login action, or using JavaScript to display the content. This feature give you the power to send the content you're looking in front of you, in the browser, so wallabag doesn't have to try anything but saving the stuff you sent to it.",
         "description": "Options"
     },
-    "Sites_locally_whitelist_fetch_title": {
-        "message": "Whitelist",
-        "description": "Options"
-    },
     "Sites_locally_whitelist_fetch_explaination": {
         "message": "Enter the address of the website for which you always want to send the browser content instead of just its page URL.",
+        "description": "Options"
+    },
+    "Sites_locally_whitelist_fetch_title": {
+        "message": "Whitelist",
         "description": "Options"
     },
     "Something_s_wrong": {
@@ -302,6 +346,10 @@
     "State": {
         "message": "State",
         "description": "Options"
+    },
+    "Suggesting_tags": {
+        "message": "Suggesting tags…",
+        "description": "Popup"
     },
     "Tag_already_exists": {
         "message": "Tag already exists",
@@ -351,6 +399,14 @@
         "message": "wallabag API version",
         "description": "Options"
     },
+    "Wallabag_URL": {
+        "message": "wallabag URL",
+        "description": "Options"
+    },
+    "Wallabag_URL_checked": {
+        "message": "wallabag URL checked",
+        "description": "Options"
+    },
     "Wallabag_it": {
         "message": "wallabag it!",
         "description": "background"
@@ -361,14 +417,6 @@
     },
     "Wallabag_permission_checked": {
         "message": "wallabag permission checked",
-        "description": "Options"
-    },
-    "Wallabag_URL": {
-        "message": "wallabag URL",
-        "description": "Options"
-    },
-    "Wallabag_URL_checked": {
-        "message": "wallabag URL checked",
         "description": "Options"
     },
     "We_need_an_access_to_your_wallabag_instance_to_read_write_and_update_content_Please_test_the_URL_again_and_accept_the_permission_request": {
@@ -383,16 +431,32 @@
         "message": "You can find your credentials here:",
         "description": "Options"
     },
-    "Fetch_by_default_when_saving_page": {
-        "message": "Retrieve content from the browser by default when saving page",
-        "description": "Options"
-    },
-    "Archive_by_default_when_saving_page": {
-        "message": "Archive by default when saving the page",
-        "description": "Options"
-    },
     "You_need_to_be_logged_in_your_wallabag_Then_you_need_to_try_again": {
         "message": "You need to be logged in <a href=\"%URL%\" target=\"_blank\">your wallabag</a>. Then you need to try again.",
+        "description": "Options"
+    },
+    "day_many": {
+        "message": "days",
+        "description": "Options"
+    },
+    "day_one": {
+        "message": "day",
+        "description": "Options"
+    },
+    "hour_many": {
+        "message": "hours",
+        "description": "Options"
+    },
+    "hour_one": {
+        "message": "hour",
+        "description": "Options"
+    },
+    "minute_many": {
+        "message": "minutes",
+        "description": "Options"
+    },
+    "minute_one": {
+        "message": "minute",
         "description": "Options"
     }
 }

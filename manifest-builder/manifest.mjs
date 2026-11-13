@@ -59,7 +59,8 @@ class Manifest {
             "tabs"
         ],
         "optional_host_permissions": [
-            "*://*/api/*"
+            "*://*/api/*",
+            "*://*/*"
         ],
         "options_ui": {
             "page": "options.html",
@@ -91,7 +92,8 @@ class Manifest {
                 "id": "{7a7b1d36-d7a4-481b-92c6-9f5427cb9eb1}",
                 "strict_min_version": "128.0",
                 "data_collection_permissions": {
-                    "required": ["none"]
+                    "required": ["none"],
+                    "optional": ["browsingActivity", "websiteContent"]
                 }
             },
             "gecko_android": {
