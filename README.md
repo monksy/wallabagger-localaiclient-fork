@@ -1,11 +1,15 @@
-# Wallabagger
+# wallabagger-localaiclient-fork
 
-This fork reflects a disagreement about where AI features should run. The AI
-tag-suggestion work here is configured on each user's client and uses an
-inference provider they choose, rather than a centralized AI service. This is
-not an active feature in upstream Wallabagger, so this fork will retain the
-change independently. There is no guarantee that this fork will stay current
-with upstream or receive future updates.
+This is an independent fork of Wallabagger that explores configuring AI tag
+suggestions on each user's client with an inference provider they choose,
+rather than through a centralized AI service. It reflects a different view
+about where AI features should run; there is no ill will toward the upstream
+project or its maintainers.
+
+AI tag suggestions are not currently an active feature in upstream Wallabagger.
+This fork will be archived if upstream adds AI-powered tag suggestions. Until
+then, there is no guarantee that this fork will stay current with upstream or
+receive future updates.
 
 [Wallabagger](https://github.com/wallabag/wallabagger) is a Firefox and Chromium-based browser (Chrome, Vivaldi, Brave…) extension for [wallabag v2](https://wallabag.org).
 
