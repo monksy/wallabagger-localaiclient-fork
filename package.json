@@ -13,6 +13,7 @@
     "test": "vitest run",
     "locales:sort": "sort-json -i -d=1 wallabagger/_locales/**/messages.json",
     "build": "web-ext build --source-dir wallabagger/",
+    "build-for-amo": "npm run manifest:build firefox && web-ext build --source-dir wallabagger/ --overwrite-dest",
     "manifest:build": "node manifest-builder/manifest.mjs",
     "build:chrome": "node scripts/build-chrome.mjs"
   },
