@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wallabag/wallabagger.git"
+    "url": "git+https://github.com/monksy/wallabagger-localaiclient-fork.git"
   },
   "keywords": [
     "wallabag",
@@ -35,9 +35,9 @@
   "author": "wallabagger",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wallabag/wallabagger/issues"
+    "url": "https://github.com/monksy/wallabagger-localaiclient-fork/issues"
   },
-  "homepage": "https://github.com/wallabag/wallabagger#readme",
+  "homepage": "https://github.com/monksy/wallabagger-localaiclient-fork#readme",
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.5",
     "@eslint/js": "^10.0.1",

@@ -1,4 +1,4 @@
-[Wallabagger](https://github.com/wallabag/wallabagger) is a Firefox and Chromium-based browser (Chrome, Vivaldi, Brave…) extension for [wallabag v2](https://wallabag.org).
+[Wallabagger Local AI Client Fork](https://github.com/monksy/wallabagger-localaiclient-fork) is a Firefox and Chromium-based browser (Chrome, Vivaldi, Brave…) extension for [wallabag v2](https://wallabag.org).
 
 ## What is wallabag?
 
@@ -28,7 +28,7 @@ wallabag is a self hostable application allowing you to not miss any content any
 ## Help us
 
 - [Translate the app on Weblate](https://hosted.weblate.org/projects/wallabag/wallabagger/)
-- [Improve the documentation](https://github.com/wallabag/wallabagger/tree/main/docs)
+- [Improve the documentation](https://github.com/monksy/wallabagger-localaiclient-fork/tree/main/docs)
 - [Test the pre-release version](betatest)
 
 ## Many thanks to

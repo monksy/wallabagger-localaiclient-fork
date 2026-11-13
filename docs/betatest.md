@@ -11,7 +11,7 @@ If you're really sure you want to do it anyway, you can follow these steps:
 
 This version **WILL NOT** be updated automatically by your browser.
 
-1. Download [the last pre-release CRX file](https://github.com/wallabag/wallabagger/releases)
+1. Download [the last pre-release CRX file](https://github.com/monksy/wallabagger-localaiclient-fork/releases)
 2. Go to your browser's extension settings page
     - Chrome: `chrome://extensions/`
     - Vivaldi: `vivaldi:extensions`
@@ -27,7 +27,7 @@ This version **WILL NOT** be updated automatically by your browser.
 
 You should have Node and npm installed.
 
-1. Download [the last version of the source code](https://github.com/wallabag/wallabagger/archive/refs/heads/main.zip)
+1. Download [the last version of the source code](https://github.com/monksy/wallabagger-localaiclient-fork/archive/refs/heads/main.zip)
 2. Unzip this file
 
 ### For Chromium-based browsers (Chrome, Vivaldi)

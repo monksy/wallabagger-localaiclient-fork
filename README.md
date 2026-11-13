@@ -11,7 +11,7 @@ This fork will be archived if upstream adds AI-powered tag suggestions. Until
 then, there is no guarantee that this fork will stay current with upstream or
 receive future updates.
 
-[Wallabagger](https://github.com/wallabag/wallabagger) is a Firefox and Chromium-based browser (Chrome, Vivaldi, Brave…) extension for [wallabag v2](https://wallabag.org).
+[Wallabagger Local AI Client Fork](https://github.com/monksy/wallabagger-localaiclient-fork) is a Firefox and Chromium-based browser (Chrome, Vivaldi, Brave…) extension for [wallabag v2](https://wallabag.org), based on [Wallabagger](https://github.com/wallabag/wallabagger).
 
 ## What is wallabag?
 
