@@ -89,15 +89,15 @@ class Manifest {
         this.#shared.background.scripts = ["js/background.js"];
         this.#shared.browser_specific_settings = {
             "gecko": {
-                "id": "{7a7b1d36-d7a4-481b-92c6-9f5427cb9eb1}",
-                "strict_min_version": "128.0",
+                "id": "{a19045e2-94f6-4d2c-9dcb-c75975481f1a}",
+                "strict_min_version": "140.0",
                 "data_collection_permissions": {
                     "required": ["none"],
                     "optional": ["browsingActivity", "websiteContent"]
                 }
             },
             "gecko_android": {
-                "strict_min_version": "128.0"
+                "strict_min_version": "142.0"
             }
         };
         return this.#shared;
